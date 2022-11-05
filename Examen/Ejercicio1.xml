@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="XSLT/ejercicio.xsl" ?>
+<!DOCTYPE ventas SYSTEM "Rreglas.dtd">
+<bib xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="Reglas.xsd">
+
+    <libro anyo="1994">
+            <titulo>TCP/IP Illustrated</titulo>
+            <autor id="mm" foto="https://crearmiempresa.es/wp-content/uploads/2015/07/frases-de-steve-jobs.jpg">
+                <apellido>stevensG</apellido>
+                <nombre>W.</nombre>
+                <cedula></cedula>
+            </autor>
+            <editorial>Addison-Wesley</editorial>
+            <precio>65.95</precio>
+            <codigoPais>ESP</codigoPais>
+        </libro>
+        <libro anyo="1992">
+            <titulo>Advanced Programming for Unix environment</titulo>
+            <autor id="pp">
+                <apellido>stevens</apellido>
+                <nombre>W.</nombre>
+                <cedula></cedula>
+            </autor>
+            <editorial>Addison-Wesley</editorial>
+            <precio>65.95</precio>
+        </libro>
+        <libro anyo="2000">
+            <titulo>Data on the Web</titulo>
+            <autor id="yy">
+
+                <apellido>abiteboul</apellido>
+                <nombre>Serge</nombre>
+                <cedula></cedula>
+            </autor>
+            <autor id="k">
+                <apellido>buneman</apellido>
+                <nombre>Peter</nombre>
+            </autor>
+            <autor>
+                <apellido>suciua</apellido>
+                <nombre>Dan</nombre>
+            </autor>
+            <editorial>Morgan Kaufmann editorials</editorial>
+            <precio>39.95</precio>
+        </libro>
+        <libro anyo="1999">
+            <titulo> Economics of Technology for Digital TV</titulo>
+            <autor id="qq">
+                <apellido>gerbarg</apellido>
+                <nombre>Darcy</nombre>
+                <cedula></cedula>
+
+            </autor>
+            <editorial>Kluwer Academic editorials</editorial>
+            <precio>129.95</precio>
+        </libro>
+</bib>
